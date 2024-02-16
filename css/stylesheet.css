@@ -3,6 +3,7 @@
 * {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
+  /* margin: 0; */
 }
 
 .text-primary {
@@ -35,6 +36,7 @@ header > nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 0px 200px;
 }
 
 nav > ul {
@@ -46,4 +48,17 @@ nav > ul {
 
 header > nav a {
   text-decoration: none;
+}
+
+/* background related style */
+.header {
+  background-color: #fff8f3;
+}
+.banner {
+  padding: 30px 30px 30px 150px;
+  display: flex;
+}
+.profile-pic {
+  width: 584px;
+  height: 676px;
 }
